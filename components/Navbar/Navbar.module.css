@@ -1,0 +1,39 @@
+#navbar{
+    background: #101010;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navcontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbrand{
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.nav_user{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.nav_username{
+    color: white;
+    font-size: 18px ;
+    font-weight: bold;
+    margin-right: 20px;
+}

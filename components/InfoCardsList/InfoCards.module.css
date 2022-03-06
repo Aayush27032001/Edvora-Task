@@ -1,0 +1,95 @@
+#infocard{
+    background-color: #131313;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.infocard_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.user_info{
+    display: flex;
+}
+
+.infocard_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.map_img{
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 280px;
+    height: 150px;
+}
+
+.state_city{
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.state{
+    background-color: rgba(0, 0, 0, 0.56);
+    padding: 3px 15px;
+    margin: 0px 20px;
+    border-radius: 100px ;
+    align-self:flex-start;
+}
+
+.city{
+    background-color: rgba(0, 0, 0, 0.56);
+    padding: 3px 15px;
+    border-radius: 100px ;
+    align-self:flex-start;
+}
+
+.filters{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.filters_sort{
+    display: flex;
+    width: 35%;
+    color: white;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.filtersDropdown_container{
+    position: relative;
+}
+
+.filter_drowpdown{
+    position: absolute;
+    right: 0%;
+}
+
+.ride_types{
+    cursor: pointer;
+    border-bottom: solid #232323 2px;
+}
+.ride_types:hover{
+    border-bottom: solid white 2px;
+}
+.ride_types:active{
+    border-bottom: solid white 2px;
+}
+
+.filter_btn{
+    padding: 5px 20px;
+    background-color: #232323;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
