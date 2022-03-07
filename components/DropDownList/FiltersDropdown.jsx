@@ -55,6 +55,9 @@ const FiltersDropdown = ({ setData, data }) => {
       if(ele.state===selectedState && ele.city===event.target.value){
         return ele;
       }
+      if(ele.city===event.target.value){
+        return ele;
+      }
     })
 
     setData(filterData);
